@@ -17,6 +17,7 @@
 #include "nn/ro.h"
 #include "operator.h"
 #include "skyline/inlinehook/And64InlineHook.hpp"
+#include "skyline/plugin/PluginManager.hpp"
 #include "skyline/logger/TcpLogger.hpp"
 #include "skyline/utils/SafeQueue.hpp"
 #include "types.h"

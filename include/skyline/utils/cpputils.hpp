@@ -24,6 +24,10 @@ extern u64 g_MainHeapAddr;
 
 void init();
 
+Result walkDirectory(std::string const&,
+                     std::function<void(nn::fs::DirectoryEntry const&, std::shared_ptr<std::string>)>,
+                     bool recursive = true);
+Result readFile(std::string const&, s64, void*, size_t);
 extern "C" void* getRegionAddress(skyline::utils::region);
 
 struct Sha256Hash {

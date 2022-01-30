@@ -28,3 +28,4 @@ scripts/.idea/*
 crash_reports/
 !exported.txt
 !v160_v150_change.txt
+*.d
